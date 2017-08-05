@@ -1,6 +1,54 @@
-*   {
+ *  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ }
+
+body {
+    background-color: #E8E8E8;
+}
+ 
+ #container {
+     max-width: 1000px;
+     margin: 0 auto;
+
+ }
+
+#header--img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
 }
 
+nav {
+    width: 20%;
+    float: left;
+    
+
+
+    }
+
+nav li {
+   display: block;
+   text-align: center;
+   padding: 2px;
+   background-color: #52658f;
+   color: #F7F5E6;
+    
+ }
+nav li:hover {
+    background-color: #333a56;
+    cursor: pointer;
+}
+
+ section {
+     padding: 0 2% 0 22%;
+     
+    
+ }
+
+ footer {
+    text-align: center;
+    clear: left;
+    
+ }
