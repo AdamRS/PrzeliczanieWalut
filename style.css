@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    width: 20%;
+    width: 25%;
     float: left;
     
 
@@ -42,13 +42,43 @@ nav li:hover {
 }
 
  section {
-     padding: 0 2% 0 22%;
-     
-    
+     padding: 0 0 0 26%;
  }
+
+ #baseCurrency{
+     height:2em;
+    line-height:2.2em;
+    float: left;
+    width: 8%;
+    background-color: #52658f;
+    color: #F7F5E6;
+    padding-left: 1%;
+ }
+
+#animationText{
+    height:2em;
+    line-height:2.2em;
+    position:relative;
+    overflow:hidden;
+    width: 92%;
+    border: 1px solid #52658f ;
+
+ }
+#animationText > p {
+    position: absolute;
+    margin:0;
+    white-space:nowrap;
+    animation:przesun 30s linear infinite;
+}
 
  footer {
     text-align: center;
     clear: left;
     
  }
+@keyframes przesun
+{
+    0% { transform:translateX(0); padding-left:110%; }
+    100% { transform:translateX(-100%); padding-left:110%;}
+
+}
