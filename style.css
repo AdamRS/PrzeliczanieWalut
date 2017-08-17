@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, arial, sans-serif;
  }
 
 body {
@@ -24,16 +25,18 @@ nav {
     width: 25%;
     float: left;
     
+    
 
 
     }
 
 nav li {
    display: block;
-   text-align: center;
-   padding: 2px;
+   text-align: left;
+   padding: 3px 3px 3px 8px;
    background-color: #52658f;
    color: #F7F5E6;
+  
     
  }
 nav li:hover {
@@ -42,12 +45,17 @@ nav li:hover {
 }
 
  section {
+             
      padding: 0 0 0 26%;
+     
+     
+     
+     
  }
 
  #baseCurrency{
-     height:2em;
-    line-height:2.2em;
+    height:2em;
+    line-height:2em;
     float: left;
     width: 8%;
     background-color: #52658f;
@@ -56,8 +64,9 @@ nav li:hover {
  }
 
 #animationText{
+    line-height:2em;
     height:2em;
-    line-height:2.2em;
+    margin-right: 5px;
     position:relative;
     overflow:hidden;
     width: 92%;
@@ -70,6 +79,59 @@ nav li:hover {
     white-space:nowrap;
     animation:przesun 30s linear infinite;
 }
+
+#CurrenciesDetails {
+    text-align: justify;
+    margin-right: 5px;
+    
+    line-height: 1.5em;
+}
+
+div h3{
+    text-align: center;
+}
+form {
+   
+    margin-top: 20px;
+}
+form div {
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+ 
+}
+
+label {
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    height: 2em;
+    
+}
+label:last-child{
+    text-align: left;
+}
+input[type="number"], select{
+    width: 30%;
+}
+
+input[type="submit"]{
+    width: 30%;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+form div:last-child{
+    text-align: center;
+}
+#result {
+    text-align: center;
+    line-height: 3em;
+}
+
+
 
  footer {
     text-align: center;

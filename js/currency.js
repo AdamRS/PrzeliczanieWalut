@@ -1,7 +1,7 @@
 var currency =[
     {
         "kod_waluty":"AUD",
-        "kraj":"Australia Kiribati Nauru Tuvalu Wyspa Bożego Narodzenia Wyspa Norfolk Wyspy Kokosowe",
+        "kraj":"Australia, Kiribati, Nauru, Tuvalu, Wyspa, Bożego, Narodzenia, Wyspa, Norfolk, Wyspy, Kokosowe.",
         "nazwa_waluty":"dolar australijski"
     },
     {
@@ -21,7 +21,7 @@ var currency =[
     },
     {
         "kod_waluty":"CHF",
-        "kraj":"Liechtenstein Szwajcaria",
+        "kraj":"Liechtenstein, Szwajcaria.",
         "nazwa_waluty":"frank szwajcarski"
     },
     {
@@ -36,7 +36,7 @@ var currency =[
     },
     {
         "kod_waluty":"DKK",
-        "kraj":	"Dania Grenlandia Wyspy Owcz",
+        "kraj":	"Dania, Grenlandia, Wyspy Owcz.",
         "nazwa_waluty":"korona duńska"
     },
     {
@@ -101,7 +101,7 @@ var currency =[
     },
     {
         "kod_waluty":"NZD",
-        "kraj":	"Niue Nowa Zelandia Pitcairn Tokelau Wyspy Cooka",
+        "kraj":	"Niue, Nowa Zelandia, Pitcairn, Tokelau, Wyspy Cooka",
         "nazwa_waluty":"dolar nowozelandzki"
     },
     {
@@ -156,7 +156,7 @@ var currency =[
     },
     {
         "kod_waluty":"EUR",
-        "kraj":	"Andora Austria Belgia Cypr Czarnogóra Estonia Finlandia Francja Francuskie  Terytoria Południowe i Antarktyczne Grecja Gujana Francuska Gwadelupa Hiszpania Irlandia Litwa Luksemburg Łotwa Majotta Malta Martynika Monako Niderlandy Niemcy  Portugalia Reunion Saint-Barthélemy Saint-Martin Saint-Pierre i Miquelon San Marino Słowacja Słowenia Stolica Apostolska; Państwo Watykańskie Włochy  Wyspy Alandzkie",
+        "kraj":	"Andora, Austria, Belgia, Cypr, Czarnogóra, Estonia, Finlandia, Francja, Francuskie, Terytoria Południowe i Antarktyczne, Grecja, Gujana Francuska, Gwadelupa, Hiszpania, Irlandia, Litwa, Luksemburg, Łotwa, Majotta, Malta, Martynika, Monako, Niderlandy, Niemcy, Portugalia, Reunion, Saint-Barthélemy, Saint-Martin, Saint-Pierre, Miquelon, San Marino, Słowacja, Słowenia, Stolica Apostolska(Państwo Watykańskie), Włochy, Wyspy Alandzkie.",
         "nazwa_waluty":"euro"
     },
 
